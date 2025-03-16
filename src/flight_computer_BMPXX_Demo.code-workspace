@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../flight_computer_BMPXX_Demo"
+		},
+		{
+			"name": "flight_computer_BMP3xx_demo",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
