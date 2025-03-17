@@ -3,7 +3,7 @@
 
 Adafruit_BMP3XX bmp; 
 
-void bmpSetup() {
+void setupBMP() {
 
     if(!bmp.begin_SPI(BMP_CS, BMP_SCK, BMP_MISO, BMP_MOSI)) {
         Serial.println("Could not find a valid BMP3 sensor, check wiring!");
@@ -15,10 +15,5 @@ void bmpSetup() {
 
 
 }
-
-void loop() {
-
-}
-
 
 

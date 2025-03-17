@@ -6,7 +6,6 @@
 
 class Adafruit_BMP3XX {
 
-void bmpSetup();
-void loop();
+void setupBMP();
 
 }
